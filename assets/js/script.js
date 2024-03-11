@@ -1,4 +1,4 @@
-//  TABLA HTML
+/*//  TABLA HTML
 
 // document.getElementById("HTML1") es un elemento de HTML que se encuentra en el archivo index.html y que tiene un id="HTML1" 
 let HTML1 = document.getElementById("HTML1");  
@@ -51,3 +51,55 @@ JAVASCRIPT1.innerHTML = nota1JAVASCRIPT;
 JAVASCRIPT2.innerHTML = nota2JAVASCRIPT;
 JAVASCRIPT3.innerHTML = nota3JAVASCRIPT;
 JAVASCRIPTPromedio.innerHTML = ((nota1JAVASCRIPT + nota2JAVASCRIPT + nota3JAVASCRIPT) / 3).toFixed(2);
+*/
+
+//html
+
+var html1 = document.getElementById ("html1");
+var html2 = document.getElementById ("html2");
+var html3 = document.getElementById ("html3");
+var htmlpromedio = document.getElementById ("htmlpromedio");
+
+
+
+var notahtml1 = +prompt ("ingrese nota HTML 1");
+var notahtml2 = +prompt ("ingrese nota HTML 2");
+var notahtml3 = +prompt ("ingrese nota HTML 3");
+
+html1.innerHTML = notahtml1;
+html2.innerHTML = notahtml2;
+html3.innerHTML = notahtml3;
+
+htmlpromedio.innerHTML = ( (notahtml1 + notahtml2 + notahtml3 )/ 3).toFixed(2);
+
+//CSS
+ var css1 = document.getElementById ("css1");
+ var css2 = document.getElementById ("css2");
+ var Css3 = document.getElementById ("css3");
+ var csspromedio = document.getElementById ("csspromedio");
+
+ var notacss1 = +prompt ("ingrese nota css 1");
+ var notacss2 = +prompt ("ingrese nota css 2");
+ var notacss3 = +prompt ("ingrese nota css 3");
+
+ css1.innerHTML = notacss1;
+ css2.innerHTML = notacss2;
+ Css3.innerHTML = notacss3;
+
+ csspromedio.innerHTML =((notacss1 + notacss2 +notacss3)/3).toFixed(2);
+
+ //javascript
+
+ var javascript1 = document.getElementById ("JavaScript1");
+ var javascript2 = document.getElementById ("JavaScript2");
+ var javascript3 = document.getElementById ("JavaScript3");
+
+ var notaJavaScript1 = +prompt ("ingrese nota javascript 1");
+ var notaJavaScript2 = +prompt ("ingrese nota javascript 2");
+ var notaJavaScript3 = +prompt ("ingrese nota javascript 3");
+
+ javascript1.innerHTML = notaJavaScript1;
+ javascript2.innerHTML = notaJavaScript2;
+ javascript3.innerHTML = notaJavaScript3;
+
+ javascriptpromedio.innerHTML= ((notaJavaScript1 + notaJavaScript2 + notaJavaScript3)/3).toFixed(2);
